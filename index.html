@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<style type="text/css">
+.nav-link {
+    color: #FFFFFF !important;
+}
+.nav-link:hover {
+    color: #73B5DA !important;
+}
+.dropdown-item:hover {
+    background-color: #2EBCD1;
+}
+.carousel-item {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.jumbotron {
+    background-color: #165673;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-radius: 0;
+}
+.card {
+    border-radius: none;
+}
+.btn {
+    background-color: #97DBEF;
+    border: none;
+    color: #4D4D4D;
+}
+.btn:hover {
+    background-color: #105C7A;
+    border: none;
+    color: #FFFFFF;
+}
+.title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    background-color: #848484;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer a {
+    color: #FFFFFF;
+}
+	  </style>
+  </head>
+  <body>
+  	<!-- body code goes here -->
+<div class="container-fluid" style="padding-left: 0px;padding-right: 0px">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="padding-left: 50px;padding-right: 50px "> <a class="navbar-brand" href="#"><img class="align-text-top" src="images/ts_icon.png" width="30" height="30" alt=""/>&nbsp;&nbsp;臺中火車站</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link disabled" href="#">台中火車站 <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#01">驛鐵道文化園區</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 火車站特色 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#021">舊鐵道</a> <a class="dropdown-item" href="#022">鐵鹿大街</a>
+          <a class="dropdown-item" href="#023">裝置藝術</a> </div>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="#03">車站歷史</a> </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" style="background-image: url(images/TS_station.png)">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url(images/TS_old.png)">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url(images/TS_escalator.png)">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+  <div class="jumbotron">
+    <h1 class="display-5" id="01">臺中驛鐵道文化園區</h1>
+    <p class="lead" style="padding-top: 20px">縱貫線在臺中通車，改變生活；臺中車站穿越百年，塑造經典。<br>
+      站在過去與未來的轉捩點，臺中驛鐵道文化園區燦然迎向下一個百年風華。</p>
+    <p class="lead" style="padding-top: 20px"> <a class=" btn-dark btn-lg" href="#" role="button">Learn more</a> </p>
+  </div>
+  <div class="row justify-content-around no-gutters">
+    <div class="card col-lg-3"> <img class="card-img-top" src="images/TS_railway.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title" id="021">舊鐵道</h5>
+        <p class="card-text">現改造為提供來往的旅客一個歇息空間，也是許多街頭藝人大展才藝的地方。</p>
+        <a href="#" class="btn btn-primary">更多資訊</a> </div>
+    </div>
+    <div class="card col-lg-3"> <img class="card-img-top" src="images/TS_market.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title" id="022">鐵鹿大街</h5>
+        <p class="card-text">規劃餐飲、旅宿、展覽、藝文青創、娛樂閲讀等多元功能，期待來往旅客多加駐足</p>
+        <a href="#" class="btn btn-primary">更多資訊</a> </div>
+    </div>
+    <div class="card col-lg-3"> <img class="card-img-top" src="images/TS_art.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title" id="023">裝置藝術</h5>
+        <p class="card-text">作品名稱：《期待》Anticipation<br>
+          創作者：Inges Idee<br>
+          完成日期：2018年</p>
+        <a href="#" class="btn btn-primary">更多資訊</a> </div>
+    </div>
+  </div>
+  <div class="row no-gutters align-items-center">
+    <div class="col-lg-12  title" id="03">車站歷史</div>
+    <div class="col-lg-6"><img src="images/ts.png" class="img-fluid" alt="Placeholder image"></div>
+    <div class="col-lg-6" style="padding-left: 10px;padding-right: 10px;font-size: 18px;text-align: justify">台中火車站的興建始於1905 年（明治三十八年），原稱為「台中停車場」，首任驛長為塚澤力太郎。第一代的台中車站，為木造平房1908年（明治四十一年）六月三十日，台中站內興建火車頭的機關庫。同年十月二十四日縱貫鐵路的全通儀式在台中公園舉行，日本閑院宮載仁親王來台參加，台中車站此時達官貴人雲集，可謂盛況空前。1909年（明治四十二年）陸續完成鐵製跨線天橋及第一貨物倉庫的建造。隨著縱貫線的通車，台中市日漸發展，舊站房的空間已不敷使用，遂在1917年（大正六年）興建第二代的台中車站，稱為「台中驛」，此即現存台中車站的主體。第二代的台中車站為磚造建築，模仿文藝復興及巴洛克時期建築，結構多由鋼筋混凝土造成，建築多有豐富的巴洛克裝飾。 </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-lg-12 footer">資料來源：<a href="https://www.tcrp.com.tw/">臺中驛鐵道文化園區</a>／<a href="https://www.tcrp.com.tw/">臺中市文化資產處－臺中火車站歷史沿革</a></div>
+  </div>
+</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
